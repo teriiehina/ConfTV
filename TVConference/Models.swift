@@ -8,6 +8,10 @@
 
 import Foundation
 
+//------------------------------------------------------------------------------------------------
+// Struct
+//------------------------------------------------------------------------------------------------
+
 // UI / UX / DESIGN / Mobile / Marketing
 struct Tags {
     let name : String
@@ -17,7 +21,6 @@ struct Tags {
 struct Language {
     let codeISO3166 : String
 }
-
 
 // Adresse du Moscone
 struct Address {
@@ -94,7 +97,7 @@ struct Conference {
 }
 
 // WWDC 2015
-struct ConferenceEvent {
+struct ConferenceEvent : PresetableInList {
     let conference : Conference
     let tags : [Tags]
     let address : Address
@@ -104,4 +107,39 @@ struct ConferenceEvent {
     let imageSquareBig : NSData?
     let imageSquareSmall : NSData?
     let imageRectSmall : NSData?
+}
+
+struct CarrousselElement : PresetableInList {
+    let videos : [Video]
+    let image : CarrousselImageType
+    let title : String
+}
+
+struct Carroussel {
+    let title : String
+    let type : CarrousselType
+    let elements : [CarrousselElement]
+}
+
+//------------------------------------------------------------------------------------------------
+// Enum
+//------------------------------------------------------------------------------------------------
+
+enum CarrousselType {
+    case Top
+}
+
+enum CarrousselImageType {
+    case Big(url: String)
+    case Long(url: String)
+    case Squared(url: String)
+    case Small(url: String)
+}
+
+//------------------------------------------------------------------------------------------------
+// Protocol
+//------------------------------------------------------------------------------------------------
+
+protocol PresetableInList {
+    
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0849CF1BD4458A00B294FE /* HP.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F0849CE1BD4458A00B294FE /* HP.json */; };
 		0FCF53AB1BC9A6A10025FC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF53AA1BC9A6A10025FC3E /* AppDelegate.swift */; };
 		0FCF53B01BC9A6A10025FC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCF53AE1BC9A6A10025FC3E /* Main.storyboard */; };
 		0FCF53B21BC9A6A10025FC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCF53B11BC9A6A10025FC3E /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0849CE1BD4458A00B294FE /* HP.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HP.json; sourceTree = "<group>"; };
 		0FCF53A71BC9A6A10025FC3E /* TVConference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVConference.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCF53AA1BC9A6A10025FC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FCF53AF1BC9A6A10025FC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,8 +104,9 @@
 		0FCF53A91BC9A6A10025FC3E /* TVConference */ = {
 			isa = PBXGroup;
 			children = (
-				0FCF53AA1BC9A6A10025FC3E /* AppDelegate.swift */,
+				0F0849CE1BD4458A00B294FE /* HP.json */,
 				0FCF53D71BC9ACD90025FC3E /* Models.swift */,
+				0FCF53AA1BC9A6A10025FC3E /* AppDelegate.swift */,
 				0FCF53DB1BC9B1730025FC3E /* HomeViewController.swift */,
 				0FCF53D91BC9B1690025FC3E /* ConferenceViewController.swift */,
 				0FCF53D51BC9AAF50025FC3E /* PlayerViewController.swift */,
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FCF53B21BC9A6A10025FC3E /* Assets.xcassets in Resources */,
+				0F0849CF1BD4458A00B294FE /* HP.json in Resources */,
 				0FCF53B01BC9A6A10025FC3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				0FCF53CE1BC9A6A10025FC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FCF53CF1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "TVConferenceTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				0FCF53D11BC9A6A10025FC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FCF53D21BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "TVConferenceUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				0FCF53D41BC9A6A10025FC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
