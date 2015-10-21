@@ -1,0 +1,13 @@
+language: objective-c
+
+branches:
+ only:
+ - develop
+
+xcode_project: TVConference.xcodeproj
+xcode_scheme: TVConferenceTests
+osx_image: xcode7
+xcode_sdk: iphonesimulator8.3 
+
+script:
+- xcodebuild clean build test -project TVConference.xcodeproj -scheme TVConferenceTests
