@@ -171,7 +171,7 @@ struct Conference
 
 
 // WWDC 2015
-struct ConferenceEvent    : PresentableInList
+struct ConferenceEvent : PresentableInList
 {
   let conference        : Conference
   let tags              : [Tags]
@@ -184,44 +184,3 @@ struct ConferenceEvent    : PresentableInList
   let imageRectSmall    : NSData?
 }
 
-
-struct CarrousselElement : PresentableInList
-{
-  let videos  : [Video]
-  let image   : CarrousselImageType
-  let title   : String
-}
-
-
-struct Carroussel
-{
-  let title     : String
-  let type      : CarrousselType
-  let elements  : [CarrousselElement]
-}
-
-//------------------------------------------------------------------------------------------------
-// Enum
-//------------------------------------------------------------------------------------------------
-
-enum CarrousselType
-{
-  case Top
-}
-
-enum CarrousselImageType
-{
-  case Big(url: String)
-  case Long(url: String)
-  case Squared(url: String)
-  case Small(url: String)
-}
-
-//------------------------------------------------------------------------------------------------
-// Protocol
-//------------------------------------------------------------------------------------------------
-
-protocol PresentableInList
-{
-    
-}
