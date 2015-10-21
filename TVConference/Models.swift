@@ -46,6 +46,7 @@ struct Presentation
 
 // toto@mail.com
 // nommage pas optimal. EmailAddress serait plus clair
+//
 struct Mail
 {
   let email : String
@@ -73,6 +74,57 @@ struct Mail
     }
   }
 }
+
+
+// thanks to http://nshipster.com/swift-literal-convertible/
+// problème: comment conserver le mécanisme de `failable init` ?
+extension Mail: StringLiteralConvertible
+{
+  typealias UnicodeScalarLiteralType            = StringLiteralType
+  typealias ExtendedGraphemeClusterLiteralType  = StringLiteralType
+  
+  
+  init(unicodeScalarLiteral value: UnicodeScalarLiteralType)
+  {
+    let test = Mail.init(email: value)
+    if let _ = test
+    {
+      self.email = value
+    }
+    else
+    {
+      self.email = ""
+    }
+  }
+  
+  init(extendedGraphemeClusterLiteral value: ExtendedGraphemeClusterLiteralType)
+  {
+    let test = Mail.init(email: value)
+    if let _ = test
+    {
+      self.email = value
+    }
+    else
+    {
+      self.email = ""
+    }
+  }
+  
+  init(stringLiteral value: StringLiteralType)
+  {
+    let test = Mail.init(email: value)
+    if let _ = test
+    {
+      self.email = value
+    }
+    else
+    {
+      self.email = ""
+    }
+  }
+}
+
+
 
 // Mike Swingler
 struct Presenter

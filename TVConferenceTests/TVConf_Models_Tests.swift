@@ -11,7 +11,7 @@ import XCTest
 
 class TVConf_Models_Tests: XCTestCase
 {
-  func testValidEmail()
+  func testValidEmailWithFailableInitializer()
   {
     let emailAddress  = "test@gmail.com"
     let validEmail    = Mail.init(email: emailAddress)
@@ -27,6 +27,15 @@ class TVConf_Models_Tests: XCTestCase
       XCTFail()
     }
   }
+  
+  func testValidEmailAsStringConvertible()
+  {
+    let emailAddress      = "test@gmail.com"
+    let validEmail: Mail  = "test@gmail.com"
+    
+    XCTAssertEqual(validEmail.email, emailAddress)
+  }
+
   
   func testInvalidEmail()
   {
