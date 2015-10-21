@@ -17,6 +17,8 @@
 		0FCF53D81BC9ACD90025FC3E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF53D71BC9ACD90025FC3E /* Models.swift */; };
 		0FCF53DA1BC9B1690025FC3E /* ConferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF53D91BC9B1690025FC3E /* ConferenceViewController.swift */; };
 		0FCF53DC1BC9B1730025FC3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCF53DB1BC9B1730025FC3E /* HomeViewController.swift */; };
+		D78492571BD718A300263CEC /* TVConf_Models_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78492561BD718A300263CEC /* TVConf_Models_Tests.swift */; };
+		D7A34F621BD7280700902C86 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A34F611BD7280700902C86 /* ViewModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		0FCF53D91BC9B1690025FC3E /* ConferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceViewController.swift; sourceTree = "<group>"; };
 		0FCF53DB1BC9B1730025FC3E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0FCF53DF1BC9B5600025FC3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D78492561BD718A300263CEC /* TVConf_Models_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVConf_Models_Tests.swift; sourceTree = "<group>"; };
+		D7A34F611BD7280700902C86 /* ViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 			children = (
 				0F0849CE1BD4458A00B294FE /* HP.json */,
 				0FCF53D71BC9ACD90025FC3E /* Models.swift */,
+				D7A34F611BD7280700902C86 /* ViewModels.swift */,
 				0FCF53AA1BC9A6A10025FC3E /* AppDelegate.swift */,
 				0FCF53DB1BC9B1730025FC3E /* HomeViewController.swift */,
 				0FCF53D91BC9B1690025FC3E /* ConferenceViewController.swift */,
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				0FCF53BC1BC9A6A10025FC3E /* TVConferenceTests.swift */,
+				D78492561BD718A300263CEC /* TVConf_Models_Tests.swift */,
 				0FCF53BE1BC9A6A10025FC3E /* Info.plist */,
 			);
 			path = TVConferenceTests;
@@ -266,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A34F621BD7280700902C86 /* ViewModels.swift in Sources */,
 				0FCF53AB1BC9A6A10025FC3E /* AppDelegate.swift in Sources */,
 				0FCF53D61BC9AAF50025FC3E /* PlayerViewController.swift in Sources */,
 				0FCF53D81BC9ACD90025FC3E /* Models.swift in Sources */,
@@ -279,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FCF53BD1BC9A6A10025FC3E /* TVConferenceTests.swift in Sources */,
+				D78492571BD718A300263CEC /* TVConf_Models_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
