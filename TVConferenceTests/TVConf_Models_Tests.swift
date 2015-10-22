@@ -39,7 +39,7 @@ class TVConf_Models_Tests: XCTestCase
   
   func testInvalidEmail()
   {
-    let emailAddresses  = ["gmail.com" , "test@gmail.c" , "test@gmail"]
+    let emailAddresses  = ["gmail.com" , "test@gmail." , "test@gmail"]
     
     for emailAddress in emailAddresses
     {
