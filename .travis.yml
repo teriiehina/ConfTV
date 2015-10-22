@@ -8,9 +8,9 @@ branches:
 notifications:
   slack: minusetcortex:ljbtq8hQFgPVihrDXsLBB3JB
 
+osx_image:     xcode7.1
 xcode_project: TVConference.xcodeproj
 xcode_scheme:  TVConference
-osx_image:     xcode7.1
 xcode_sdk:     appletvsimulator9.0
 
 script:
