@@ -1,0 +1,5 @@
+device "tvOS Simulator"
+destination "platform=tvOS Simulator,name=Apple TV 1080p"
+
+skip_slack false
+slack_url "https://hooks.slack.com/services/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"
