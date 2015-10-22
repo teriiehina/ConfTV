@@ -4,6 +4,9 @@ branches:
  only:
  - develop
  - travis-ci
+ 
+notifications:
+  slack: minusetcortex:ljbtq8hQFgPVihrDXsLBB3JB
 
 xcode_project: TVConference.xcodeproj
 xcode_scheme:  TVConference
