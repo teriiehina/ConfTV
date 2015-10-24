@@ -1,9 +1,9 @@
 language: objective-c
 
-branches:
- only:
- - develop
- - travis-ci
+#branches:
+# only:
+# - develop
+# - travis-ci
  
 notifications:
   slack: minusetcortex:ljbtq8hQFgPVihrDXsLBB3JB
