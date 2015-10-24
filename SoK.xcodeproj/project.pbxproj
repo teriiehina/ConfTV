@@ -39,13 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FCF53B91BC9A6A10025FC3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FCF539F1BC9A6A10025FC3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FCF53A61BC9A6A10025FC3E;
-			remoteInfo = TVConference;
-		};
 		0FCF53C41BC9A6A10025FC3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0FCF539F1BC9A6A10025FC3E /* Project object */;
@@ -94,6 +87,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D7B7A20D1BDB3CF600D499DA;
 			remoteInfo = SoKCore;
+		};
+		D7B7A2381BDB459E00D499DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FCF539F1BC9A6A10025FC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FCF53A61BC9A6A10025FC3E;
+			remoteInfo = "SoK-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -235,11 +235,14 @@
 				0FCF53A91BC9A6A10025FC3E /* SoK-tvOS */,
 				0FCF53BB1BC9A6A10025FC3E /* SoK-tvOS-Tests */,
 				0FCF53C61BC9A6A10025FC3E /* SoK-tvOS-UITests */,
+				D7B7A2351BDB437300D499DA /* ------------------------- */,
 				D7B7A1781BDB336400D499DA /* SoK-iOS */,
 				D7B7A18F1BDB336400D499DA /* SoK-iOS-Tests */,
 				D7B7A19A1BDB336400D499DA /* SoK-iOS-UITests */,
+				D7B7A2361BDB438100D499DA /* ------------------------- */,
 				D7B7A20F1BDB3CF600D499DA /* SoKCore */,
 				D7B7A21D1BDB3CF600D499DA /* SoKCoreTests */,
+				D7B7A2371BDB438900D499DA /* ------------------------- */,
 				0FCF53A81BC9A6A10025FC3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -352,6 +355,27 @@
 			path = SoKCoreTests;
 			sourceTree = "<group>";
 		};
+		D7B7A2351BDB437300D499DA /* ------------------------- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "-------------------------";
+			sourceTree = "<group>";
+		};
+		D7B7A2361BDB438100D499DA /* ------------------------- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "-------------------------";
+			sourceTree = "<group>";
+		};
+		D7B7A2371BDB438900D499DA /* ------------------------- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "-------------------------";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -396,7 +420,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0FCF53BA1BC9A6A10025FC3E /* PBXTargetDependency */,
+				D7B7A2391BDB459E00D499DA /* PBXTargetDependency */,
 			);
 			name = "SoK-tvOS Tests";
 			productName = TVConferenceTests;
@@ -721,11 +745,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FCF53BA1BC9A6A10025FC3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FCF53A61BC9A6A10025FC3E /* SoK-tvOS */;
-			targetProxy = 0FCF53B91BC9A6A10025FC3E /* PBXContainerItemProxy */;
-		};
 		0FCF53C51BC9A6A10025FC3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0FCF53A61BC9A6A10025FC3E /* SoK-tvOS */;
@@ -760,6 +779,11 @@
 			isa = PBXTargetDependency;
 			target = D7B7A20D1BDB3CF600D499DA /* SoKCore */;
 			targetProxy = D7B7A2321BDB3D0C00D499DA /* PBXContainerItemProxy */;
+		};
+		D7B7A2391BDB459E00D499DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FCF53A61BC9A6A10025FC3E /* SoK-tvOS */;
+			targetProxy = D7B7A2381BDB459E00D499DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -907,7 +931,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConferenceTests;
 				PRODUCT_NAME = SoK;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoK.app/SoK";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoK-tvOS.app/SoK-tvOS";
 			};
 			name = Debug;
 		};
@@ -919,7 +943,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConferenceTests;
 				PRODUCT_NAME = SoK;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoK.app/SoK";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoK-tvOS.app/SoK-tvOS";
 			};
 			name = Release;
 		};
