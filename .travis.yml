@@ -14,4 +14,4 @@ xcode_scheme:  TVConference
 xcode_sdk:     appletvsimulator9.0
 
 script:
-- xcodebuild clean build test -sdk appletvsimulator9.0 -project TVConference.xcodeproj -scheme TVConference
+- xcodebuild clean build test -sdk appletvsimulator9.0 -project SoK.xcodeproj -scheme SoK-tvOS
