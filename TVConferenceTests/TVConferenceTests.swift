@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TVConference
+@testable import SoK_tvOS
 
 class TVConferenceTests: XCTestCase {
     

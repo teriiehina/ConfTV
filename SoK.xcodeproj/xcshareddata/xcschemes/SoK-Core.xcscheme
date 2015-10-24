@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D7B7A2161BDB3CF600D499DA"
+               BuildableName = "SoKCoreTests.xctest"
+               BlueprintName = "SoKCoreTests"
+               ReferencedContainer = "container:SoK.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D7B7A20D1BDB3CF600D499DA"
+            BuildableName = "SoKCore.framework"
+            BlueprintName = "SoKCore"
+            ReferencedContainer = "container:SoK.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

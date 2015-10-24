@@ -9,28 +9,46 @@
 import XCTest
 @testable import SoKCore
 
-class SoKCoreTests: XCTestCase {
+class SoKCoreTests: XCTestCase
+{
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+  func testValidEmailWithFailableInitializer()
+  {
+    let emailAddress  = "test@gmail.com"
+    let validEmail    = Mail.init(email: emailAddress)
+    
+    XCTAssertNotNil(validEmail)
+    
+    if let email = validEmail
+    {
+      XCTAssertEqual(email.email, emailAddress)
+    }
+    else
+    {
+      XCTFail()
+    }
+  }
+  
+  func testValidEmailAsStringConvertible()
+  {
+    let emailAddress      = "test@gmail.com"
+    let validEmail: Mail  = "test@gmail.com"
+    
+    XCTAssertEqual(validEmail.email, emailAddress)
+  }
+  
+  
+  func testInvalidEmail()
+  {
+    let emailAddresses  = ["gmail.com" , "test@gmail." , "test@gmail"]
+    
+    for emailAddress in emailAddresses
+    {
+      let invalidEmail    = Mail.init(email: emailAddress)
+      
+      XCTAssertNil(invalidEmail)
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
+  }
     
 }

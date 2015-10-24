@@ -124,7 +124,7 @@
 
 /* Begin PBXFileReference section */
 		0F0849CE1BD4458A00B294FE /* HP.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HP.json; sourceTree = "<group>"; };
-		0FCF53A71BC9A6A10025FC3E /* SoK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCF53A71BC9A6A10025FC3E /* SoK-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoK-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCF53AA1BC9A6A10025FC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FCF53AF1BC9A6A10025FC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FCF53B11BC9A6A10025FC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -247,7 +247,7 @@
 		0FCF53A81BC9A6A10025FC3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FCF53A71BC9A6A10025FC3E /* SoK.app */,
+				0FCF53A71BC9A6A10025FC3E /* SoK-tvOS.app */,
 				0FCF53B81BC9A6A10025FC3E /* SoK.xctest */,
 				0FCF53C31BC9A6A10025FC3E /* SoK.xctest */,
 				D7B7A1771BDB336400D499DA /* SoK-iOS.app */,
@@ -382,7 +382,7 @@
 			);
 			name = "SoK-tvOS";
 			productName = TVConference;
-			productReference = 0FCF53A71BC9A6A10025FC3E /* SoK.app */;
+			productReference = 0FCF53A71BC9A6A10025FC3E /* SoK-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0FCF53B71BC9A6A10025FC3E /* SoK-tvOS Tests */ = {
@@ -882,7 +882,7 @@
 				INFOPLIST_FILE = TVConference/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConference;
-				PRODUCT_NAME = SoK;
+				PRODUCT_NAME = "SoK-tvOS";
 			};
 			name = Debug;
 		};
@@ -895,7 +895,7 @@
 				INFOPLIST_FILE = TVConference/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConference;
-				PRODUCT_NAME = SoK;
+				PRODUCT_NAME = "SoK-tvOS";
 			};
 			name = Release;
 		};
