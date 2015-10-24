@@ -124,15 +124,15 @@
 
 /* Begin PBXFileReference section */
 		0F0849CE1BD4458A00B294FE /* HP.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HP.json; sourceTree = "<group>"; };
-		0FCF53A71BC9A6A10025FC3E /* TVConference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVConference.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCF53A71BC9A6A10025FC3E /* SoK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCF53AA1BC9A6A10025FC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FCF53AF1BC9A6A10025FC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FCF53B11BC9A6A10025FC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FCF53B31BC9A6A10025FC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FCF53B81BC9A6A10025FC3E /* TVConferenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVConferenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCF53B81BC9A6A10025FC3E /* SoK.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoK.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCF53BC1BC9A6A10025FC3E /* TVConferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVConferenceTests.swift; sourceTree = "<group>"; };
 		0FCF53BE1BC9A6A10025FC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FCF53C31BC9A6A10025FC3E /* TVConferenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVConferenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCF53C31BC9A6A10025FC3E /* SoK.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoK.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCF53C71BC9A6A10025FC3E /* TVConferenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVConferenceUITests.swift; sourceTree = "<group>"; };
 		0FCF53C91BC9A6A10025FC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FCF53D51BC9AAF50025FC3E /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
@@ -150,10 +150,10 @@
 		D7B7A1821BDB336400D499DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B7A1851BDB336400D499DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7B7A1871BDB336400D499DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7B7A18C1BDB336400D499DA /* SoK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B7A18C1BDB336400D499DA /* SoK-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoK-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B7A1901BDB336400D499DA /* SoK_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoK_iOSTests.swift; sourceTree = "<group>"; };
 		D7B7A1921BDB336400D499DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7B7A1971BDB336400D499DA /* SoK-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoK-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B7A1971BDB336400D499DA /* SoK-iOS UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoK-iOS UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B7A19B1BDB336400D499DA /* SoK_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoK_iOSUITests.swift; sourceTree = "<group>"; };
 		D7B7A19D1BDB336400D499DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B7A20E1BDB3CF600D499DA /* SoKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,12 +232,12 @@
 		0FCF539E1BC9A6A10025FC3E = {
 			isa = PBXGroup;
 			children = (
-				0FCF53A91BC9A6A10025FC3E /* TVConference */,
-				0FCF53BB1BC9A6A10025FC3E /* TVConferenceTests */,
-				0FCF53C61BC9A6A10025FC3E /* TVConferenceUITests */,
+				0FCF53A91BC9A6A10025FC3E /* SoK-tvOS */,
+				0FCF53BB1BC9A6A10025FC3E /* SoK-tvOS-Tests */,
+				0FCF53C61BC9A6A10025FC3E /* SoK-tvOS-UITests */,
 				D7B7A1781BDB336400D499DA /* SoK-iOS */,
-				D7B7A18F1BDB336400D499DA /* SoK-iOSTests */,
-				D7B7A19A1BDB336400D499DA /* SoK-iOSUITests */,
+				D7B7A18F1BDB336400D499DA /* SoK-iOS-Tests */,
+				D7B7A19A1BDB336400D499DA /* SoK-iOS-UITests */,
 				D7B7A20F1BDB3CF600D499DA /* SoKCore */,
 				D7B7A21D1BDB3CF600D499DA /* SoKCoreTests */,
 				0FCF53A81BC9A6A10025FC3E /* Products */,
@@ -247,19 +247,19 @@
 		0FCF53A81BC9A6A10025FC3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FCF53A71BC9A6A10025FC3E /* TVConference.app */,
-				0FCF53B81BC9A6A10025FC3E /* TVConferenceTests.xctest */,
-				0FCF53C31BC9A6A10025FC3E /* TVConferenceUITests.xctest */,
+				0FCF53A71BC9A6A10025FC3E /* SoK.app */,
+				0FCF53B81BC9A6A10025FC3E /* SoK.xctest */,
+				0FCF53C31BC9A6A10025FC3E /* SoK.xctest */,
 				D7B7A1771BDB336400D499DA /* SoK-iOS.app */,
-				D7B7A18C1BDB336400D499DA /* SoK-iOSTests.xctest */,
-				D7B7A1971BDB336400D499DA /* SoK-iOSUITests.xctest */,
+				D7B7A18C1BDB336400D499DA /* SoK-iOS Tests.xctest */,
+				D7B7A1971BDB336400D499DA /* SoK-iOS UITests.xctest */,
 				D7B7A20E1BDB3CF600D499DA /* SoKCore.framework */,
 				D7B7A2171BDB3CF600D499DA /* SoKCoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0FCF53A91BC9A6A10025FC3E /* TVConference */ = {
+		0FCF53A91BC9A6A10025FC3E /* SoK-tvOS */ = {
 			isa = PBXGroup;
 			children = (
 				0F0849CE1BD4458A00B294FE /* HP.json */,
@@ -273,25 +273,28 @@
 				0FCF53B11BC9A6A10025FC3E /* Assets.xcassets */,
 				0FCF53B31BC9A6A10025FC3E /* Info.plist */,
 			);
+			name = "SoK-tvOS";
 			path = TVConference;
 			sourceTree = "<group>";
 		};
-		0FCF53BB1BC9A6A10025FC3E /* TVConferenceTests */ = {
+		0FCF53BB1BC9A6A10025FC3E /* SoK-tvOS-Tests */ = {
 			isa = PBXGroup;
 			children = (
 				0FCF53BC1BC9A6A10025FC3E /* TVConferenceTests.swift */,
 				D78492561BD718A300263CEC /* TVConf_Models_Tests.swift */,
 				0FCF53BE1BC9A6A10025FC3E /* Info.plist */,
 			);
+			name = "SoK-tvOS-Tests";
 			path = TVConferenceTests;
 			sourceTree = "<group>";
 		};
-		0FCF53C61BC9A6A10025FC3E /* TVConferenceUITests */ = {
+		0FCF53C61BC9A6A10025FC3E /* SoK-tvOS-UITests */ = {
 			isa = PBXGroup;
 			children = (
 				0FCF53C71BC9A6A10025FC3E /* TVConferenceUITests.swift */,
 				0FCF53C91BC9A6A10025FC3E /* Info.plist */,
 			);
+			name = "SoK-tvOS-UITests";
 			path = TVConferenceUITests;
 			sourceTree = "<group>";
 		};
@@ -309,21 +312,23 @@
 			path = "SoK-iOS";
 			sourceTree = "<group>";
 		};
-		D7B7A18F1BDB336400D499DA /* SoK-iOSTests */ = {
+		D7B7A18F1BDB336400D499DA /* SoK-iOS-Tests */ = {
 			isa = PBXGroup;
 			children = (
 				D7B7A1901BDB336400D499DA /* SoK_iOSTests.swift */,
 				D7B7A1921BDB336400D499DA /* Info.plist */,
 			);
+			name = "SoK-iOS-Tests";
 			path = "SoK-iOSTests";
 			sourceTree = "<group>";
 		};
-		D7B7A19A1BDB336400D499DA /* SoK-iOSUITests */ = {
+		D7B7A19A1BDB336400D499DA /* SoK-iOS-UITests */ = {
 			isa = PBXGroup;
 			children = (
 				D7B7A19B1BDB336400D499DA /* SoK_iOSUITests.swift */,
 				D7B7A19D1BDB336400D499DA /* Info.plist */,
 			);
+			name = "SoK-iOS-UITests";
 			path = "SoK-iOSUITests";
 			sourceTree = "<group>";
 		};
@@ -361,9 +366,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0FCF53A61BC9A6A10025FC3E /* TVConference */ = {
+		0FCF53A61BC9A6A10025FC3E /* SoK-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FCF53CC1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "TVConference" */;
+			buildConfigurationList = 0FCF53CC1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "SoK-tvOS" */;
 			buildPhases = (
 				0FCF53A31BC9A6A10025FC3E /* Sources */,
 				0FCF53A41BC9A6A10025FC3E /* Frameworks */,
@@ -375,14 +380,14 @@
 			dependencies = (
 				D7B7A2331BDB3D0C00D499DA /* PBXTargetDependency */,
 			);
-			name = TVConference;
+			name = "SoK-tvOS";
 			productName = TVConference;
-			productReference = 0FCF53A71BC9A6A10025FC3E /* TVConference.app */;
+			productReference = 0FCF53A71BC9A6A10025FC3E /* SoK.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0FCF53B71BC9A6A10025FC3E /* TVConferenceTests */ = {
+		0FCF53B71BC9A6A10025FC3E /* SoK-tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FCF53CF1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "TVConferenceTests" */;
+			buildConfigurationList = 0FCF53CF1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "SoK-tvOS Tests" */;
 			buildPhases = (
 				0FCF53B41BC9A6A10025FC3E /* Sources */,
 				0FCF53B51BC9A6A10025FC3E /* Frameworks */,
@@ -393,14 +398,14 @@
 			dependencies = (
 				0FCF53BA1BC9A6A10025FC3E /* PBXTargetDependency */,
 			);
-			name = TVConferenceTests;
+			name = "SoK-tvOS Tests";
 			productName = TVConferenceTests;
-			productReference = 0FCF53B81BC9A6A10025FC3E /* TVConferenceTests.xctest */;
+			productReference = 0FCF53B81BC9A6A10025FC3E /* SoK.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0FCF53C21BC9A6A10025FC3E /* TVConferenceUITests */ = {
+		0FCF53C21BC9A6A10025FC3E /* SoK-tvOS UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FCF53D21BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "TVConferenceUITests" */;
+			buildConfigurationList = 0FCF53D21BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "SoK-tvOS UITests" */;
 			buildPhases = (
 				0FCF53BF1BC9A6A10025FC3E /* Sources */,
 				0FCF53C01BC9A6A10025FC3E /* Frameworks */,
@@ -411,9 +416,9 @@
 			dependencies = (
 				0FCF53C51BC9A6A10025FC3E /* PBXTargetDependency */,
 			);
-			name = TVConferenceUITests;
+			name = "SoK-tvOS UITests";
 			productName = TVConferenceUITests;
-			productReference = 0FCF53C31BC9A6A10025FC3E /* TVConferenceUITests.xctest */;
+			productReference = 0FCF53C31BC9A6A10025FC3E /* SoK.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		D7B7A1761BDB336400D499DA /* SoK-iOS */ = {
@@ -435,9 +440,9 @@
 			productReference = D7B7A1771BDB336400D499DA /* SoK-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D7B7A18B1BDB336400D499DA /* SoK-iOSTests */ = {
+		D7B7A18B1BDB336400D499DA /* SoK-iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7B7A1A51BDB336400D499DA /* Build configuration list for PBXNativeTarget "SoK-iOSTests" */;
+			buildConfigurationList = D7B7A1A51BDB336400D499DA /* Build configuration list for PBXNativeTarget "SoK-iOS Tests" */;
 			buildPhases = (
 				D7B7A1881BDB336400D499DA /* Sources */,
 				D7B7A1891BDB336400D499DA /* Frameworks */,
@@ -448,14 +453,14 @@
 			dependencies = (
 				D7B7A18E1BDB336400D499DA /* PBXTargetDependency */,
 			);
-			name = "SoK-iOSTests";
+			name = "SoK-iOS Tests";
 			productName = "SoK-iOSTests";
-			productReference = D7B7A18C1BDB336400D499DA /* SoK-iOSTests.xctest */;
+			productReference = D7B7A18C1BDB336400D499DA /* SoK-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D7B7A1961BDB336400D499DA /* SoK-iOSUITests */ = {
+		D7B7A1961BDB336400D499DA /* SoK-iOS UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7B7A1A61BDB336400D499DA /* Build configuration list for PBXNativeTarget "SoK-iOSUITests" */;
+			buildConfigurationList = D7B7A1A61BDB336400D499DA /* Build configuration list for PBXNativeTarget "SoK-iOS UITests" */;
 			buildPhases = (
 				D7B7A1931BDB336400D499DA /* Sources */,
 				D7B7A1941BDB336400D499DA /* Frameworks */,
@@ -466,9 +471,9 @@
 			dependencies = (
 				D7B7A1991BDB336400D499DA /* PBXTargetDependency */,
 			);
-			name = "SoK-iOSUITests";
+			name = "SoK-iOS UITests";
 			productName = "SoK-iOSUITests";
-			productReference = D7B7A1971BDB336400D499DA /* SoK-iOSUITests.xctest */;
+			productReference = D7B7A1971BDB336400D499DA /* SoK-iOS UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		D7B7A20D1BDB3CF600D499DA /* SoKCore */ = {
@@ -549,7 +554,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0FCF53A21BC9A6A10025FC3E /* Build configuration list for PBXProject "TVConference" */;
+			buildConfigurationList = 0FCF53A21BC9A6A10025FC3E /* Build configuration list for PBXProject "SoK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -562,12 +567,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FCF53A61BC9A6A10025FC3E /* TVConference */,
-				0FCF53B71BC9A6A10025FC3E /* TVConferenceTests */,
-				0FCF53C21BC9A6A10025FC3E /* TVConferenceUITests */,
+				0FCF53A61BC9A6A10025FC3E /* SoK-tvOS */,
+				0FCF53B71BC9A6A10025FC3E /* SoK-tvOS Tests */,
+				0FCF53C21BC9A6A10025FC3E /* SoK-tvOS UITests */,
 				D7B7A1761BDB336400D499DA /* SoK-iOS */,
-				D7B7A18B1BDB336400D499DA /* SoK-iOSTests */,
-				D7B7A1961BDB336400D499DA /* SoK-iOSUITests */,
+				D7B7A18B1BDB336400D499DA /* SoK-iOS Tests */,
+				D7B7A1961BDB336400D499DA /* SoK-iOS UITests */,
 				D7B7A20D1BDB3CF600D499DA /* SoKCore */,
 				D7B7A2161BDB3CF600D499DA /* SoKCoreTests */,
 			);
@@ -718,12 +723,12 @@
 /* Begin PBXTargetDependency section */
 		0FCF53BA1BC9A6A10025FC3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0FCF53A61BC9A6A10025FC3E /* TVConference */;
+			target = 0FCF53A61BC9A6A10025FC3E /* SoK-tvOS */;
 			targetProxy = 0FCF53B91BC9A6A10025FC3E /* PBXContainerItemProxy */;
 		};
 		0FCF53C51BC9A6A10025FC3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0FCF53A61BC9A6A10025FC3E /* TVConference */;
+			target = 0FCF53A61BC9A6A10025FC3E /* SoK-tvOS */;
 			targetProxy = 0FCF53C41BC9A6A10025FC3E /* PBXContainerItemProxy */;
 		};
 		D7B7A18E1BDB336400D499DA /* PBXTargetDependency */ = {
@@ -877,7 +882,7 @@
 				INFOPLIST_FILE = TVConference/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConference;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SoK;
 			};
 			name = Debug;
 		};
@@ -890,7 +895,7 @@
 				INFOPLIST_FILE = TVConference/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConference;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SoK;
 			};
 			name = Release;
 		};
@@ -901,8 +906,8 @@
 				INFOPLIST_FILE = TVConferenceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConferenceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVConference.app/TVConference";
+				PRODUCT_NAME = SoK;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoK.app/SoK";
 			};
 			name = Debug;
 		};
@@ -913,8 +918,8 @@
 				INFOPLIST_FILE = TVConferenceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConferenceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVConference.app/TVConference";
+				PRODUCT_NAME = SoK;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoK.app/SoK";
 			};
 			name = Release;
 		};
@@ -924,7 +929,7 @@
 				INFOPLIST_FILE = TVConferenceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConferenceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SoK;
 				TEST_TARGET_NAME = TVConference;
 				USES_XCTRUNNER = YES;
 			};
@@ -936,7 +941,7 @@
 				INFOPLIST_FILE = TVConferenceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.macko.TVConferenceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SoK;
 				TEST_TARGET_NAME = TVConference;
 				USES_XCTRUNNER = YES;
 			};
@@ -1116,7 +1121,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FCF53A21BC9A6A10025FC3E /* Build configuration list for PBXProject "TVConference" */ = {
+		0FCF53A21BC9A6A10025FC3E /* Build configuration list for PBXProject "SoK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FCF53CA1BC9A6A10025FC3E /* Debug */,
@@ -1125,7 +1130,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FCF53CC1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "TVConference" */ = {
+		0FCF53CC1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "SoK-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FCF53CD1BC9A6A10025FC3E /* Debug */,
@@ -1134,7 +1139,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FCF53CF1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "TVConferenceTests" */ = {
+		0FCF53CF1BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "SoK-tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FCF53D01BC9A6A10025FC3E /* Debug */,
@@ -1143,7 +1148,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FCF53D21BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "TVConferenceUITests" */ = {
+		0FCF53D21BC9A6A10025FC3E /* Build configuration list for PBXNativeTarget "SoK-tvOS UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FCF53D31BC9A6A10025FC3E /* Debug */,
@@ -1161,7 +1166,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7B7A1A51BDB336400D499DA /* Build configuration list for PBXNativeTarget "SoK-iOSTests" */ = {
+		D7B7A1A51BDB336400D499DA /* Build configuration list for PBXNativeTarget "SoK-iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7B7A1A01BDB336400D499DA /* Debug */,
@@ -1170,7 +1175,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7B7A1A61BDB336400D499DA /* Build configuration list for PBXNativeTarget "SoK-iOSUITests" */ = {
+		D7B7A1A61BDB336400D499DA /* Build configuration list for PBXNativeTarget "SoK-iOS UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7B7A1A21BDB336400D499DA /* Debug */,

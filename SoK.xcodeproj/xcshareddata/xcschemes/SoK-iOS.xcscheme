@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0FCF53A61BC9A6A10025FC3E"
-               BuildableName = "TVConference.app"
-               BlueprintName = "TVConference"
-               ReferencedContainer = "container:TVConference.xcodeproj">
+               BlueprintIdentifier = "D7B7A1761BDB336400D499DA"
+               BuildableName = "SoK-iOS.app"
+               BlueprintName = "SoK-iOS"
+               ReferencedContainer = "container:SoK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,37 +26,56 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0FCF53B71BC9A6A10025FC3E"
-               BuildableName = "TVConferenceTests.xctest"
-               BlueprintName = "TVConferenceTests"
-               ReferencedContainer = "container:TVConference.xcodeproj">
+               BlueprintIdentifier = "D7B7A18B1BDB336400D499DA"
+               BuildableName = "SoK-iOS Tests.xctest"
+               BlueprintName = "SoK-iOS Tests"
+               ReferencedContainer = "container:SoK.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
-            skipped = "YES">
+            skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0FCF53C21BC9A6A10025FC3E"
-               BuildableName = "TVConferenceUITests.xctest"
-               BlueprintName = "TVConferenceUITests"
-               ReferencedContainer = "container:TVConference.xcodeproj">
+               BlueprintIdentifier = "D7B7A1961BDB336400D499DA"
+               BuildableName = "SoK-iOS UITests.xctest"
+               BlueprintName = "SoK-iOS UITests"
+               ReferencedContainer = "container:SoK.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D7B7A1B41BDB368F00D499DA"
+               BuildableName = "SoK-CoreTests.xctest"
+               BlueprintName = "SoK-CoreTests"
+               ReferencedContainer = "container:SoK.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D7B7A2161BDB3CF600D499DA"
+               BuildableName = "SoKCoreTests.xctest"
+               BlueprintName = "SoKCoreTests"
+               ReferencedContainer = "container:SoK.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0FCF53A61BC9A6A10025FC3E"
-            BuildableName = "TVConference.app"
-            BlueprintName = "TVConference"
-            ReferencedContainer = "container:TVConference.xcodeproj">
+            BlueprintIdentifier = "D7B7A1761BDB336400D499DA"
+            BuildableName = "SoK-iOS.app"
+            BlueprintName = "SoK-iOS"
+            ReferencedContainer = "container:SoK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0FCF53A61BC9A6A10025FC3E"
-            BuildableName = "TVConference.app"
-            BlueprintName = "TVConference"
-            ReferencedContainer = "container:TVConference.xcodeproj">
+            BlueprintIdentifier = "D7B7A1761BDB336400D499DA"
+            BuildableName = "SoK-iOS.app"
+            BlueprintName = "SoK-iOS"
+            ReferencedContainer = "container:SoK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +114,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0FCF53A61BC9A6A10025FC3E"
-            BuildableName = "TVConference.app"
-            BlueprintName = "TVConference"
-            ReferencedContainer = "container:TVConference.xcodeproj">
+            BlueprintIdentifier = "D7B7A1761BDB336400D499DA"
+            BuildableName = "SoK-iOS.app"
+            BlueprintName = "SoK-iOS"
+            ReferencedContainer = "container:SoK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
