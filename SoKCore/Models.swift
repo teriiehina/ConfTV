@@ -1,0 +1,186 @@
+//
+//  Models.swift
+//  TVConference
+//
+//  Created by Jeffrey Macko on 10/10/2015.
+//  Copyright © 2015 Jeffrey Macko. All rights reserved.
+//
+
+import Foundation
+
+//------------------------------------------------------------------------------------------------
+// Struct
+//------------------------------------------------------------------------------------------------
+
+// e.g. "UI", "UX", "DESIGN", "Mobile", "Marketing"
+public struct Tags
+{
+  let name : String
+}
+
+// NOTE: ça serait cool de passer cette struct en enum
+// e.g "fr", "en" ...
+public struct Language
+{
+  let codeISO3166 : String
+}
+
+// Adresse du Moscone
+public struct Address
+{
+  let name        : String
+  let address1    : String
+  let address2    : String?
+  let city        : String
+  let cityState   : String?
+  let postalCode  : Int
+  let country     : Language
+}
+
+// Advanced Debugging and the Address Sanitizer.ppt
+public struct Presentation
+{
+  let url       : String
+  let timecode  : String?
+}
+
+// toto@mail.com
+// nommage pas optimal. EmailAddress serait plus clair
+//
+public struct Mail
+{
+  let email : String
+  
+  init?(email: String)
+  {
+    do
+    {
+      let matcher = try NSRegularExpression(pattern: "[a-zA-Z0-9]+(?:(\\.|_)[A-Za-z0-9!#$%&'*+/=?^`{|}~-]+)*@(?!([a-zA-Z0-9]*\\.[a-zA-Z0-9]*\\.[a-zA-Z0-9]*\\.))(?:[A-Za-z0-9](?:[a-zA-Z0-9-]*[A-Za-z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?", options: .CaseInsensitive)
+          
+      let nbMatches = matcher.numberOfMatchesInString(email, options: .ReportCompletion, range: NSMakeRange(0, email.lengthOfBytesUsingEncoding(NSUTF8StringEncoding)))
+      
+      if nbMatches > 0
+      {
+        self.email = email
+      }
+      else
+      {
+        return nil
+      }
+    }
+    catch
+    {
+      return nil
+    }
+  }
+}
+
+
+// thanks to http://nshipster.com/swift-literal-convertible/
+// problème: comment conserver le mécanisme de `failable init` ?
+extension Mail: StringLiteralConvertible
+{
+  public typealias UnicodeScalarLiteralType            = StringLiteralType
+  public typealias ExtendedGraphemeClusterLiteralType  = StringLiteralType
+  
+  
+  public init(unicodeScalarLiteral value: UnicodeScalarLiteralType)
+  {
+    let test = Mail.init(email: value)
+    if let _ = test
+    {
+      self.email = value
+    }
+    else
+    {
+      self.email = ""
+    }
+  }
+  
+  public init(extendedGraphemeClusterLiteral value: ExtendedGraphemeClusterLiteralType)
+  {
+    let test = Mail.init(email: value)
+    if let _ = test
+    {
+      self.email = value
+    }
+    else
+    {
+      self.email = ""
+    }
+  }
+  
+  public init(stringLiteral value: StringLiteralType)
+  {
+    let test = Mail.init(email: value)
+    if let _ = test
+    {
+      self.email = value
+    }
+    else
+    {
+      self.email = ""
+    }
+  }
+}
+
+
+
+// Mike Swingler
+public struct Presenter
+{
+  let name            : String
+  let mail            : Mail
+  let twitterLogin    : String?
+  let githubLogin     : String?
+  let imageSquareBig  : NSData?
+}
+
+// Advanced Debugging and the Address Sanitizer.ssa
+public struct Subtitle
+{
+  let language  : Language
+  let url       : String
+}
+
+// Advanced Debugging and the Address Sanitizer
+public struct Video
+{
+  let conferenceEvent         : ConferenceEvent
+  let title                   : String
+  let tags                    : [Tags]
+  let presenters              : [Presenter]
+  let textDescription         : String
+  let subtitles               : [Subtitle]?
+  let spokenLanguages         : [Language]
+  let presentation            : Presentation?
+  let mailContentForAttendee  : String?
+  let imageSquareBig          : NSData?
+}
+
+// WWDC
+public struct Conference
+{
+  let name              : String
+  let textDescription   : String
+  let imageTopBig       : NSData?
+  let imageSquareBig    : NSData?
+  let imageSquareSmall  : NSData?
+  let imageRectSmall    : NSData?
+}
+
+
+// WWDC 2015
+public struct ConferenceEvent : PresentableInList
+{
+  let conference        : Conference
+  let tags              : [Tags]
+  let address           : Address
+  let dateStart         : NSDate
+  let dateStop          : NSDate?
+  let imageTopBig       : NSData?
+  let imageSquareBig    : NSData?
+  let imageSquareSmall  : NSData?
+  let imageRectSmall    : NSData?
+}
+
