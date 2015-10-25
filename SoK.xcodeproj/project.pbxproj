@@ -42,6 +42,8 @@
 		D7B7A2481BDCAF6A00D499DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B7A2461BDCAF6A00D499DA /* Main.storyboard */; };
 		D7B7A2531BDCAF6B00D499DA /* SoK_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A2521BDCAF6B00D499DA /* SoK_OSXTests.swift */; };
 		D7B7A25E1BDCAF6B00D499DA /* SoK_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A25D1BDCAF6B00D499DA /* SoK_OSXUITests.swift */; };
+		D7B7A26A1BDCAFD000D499DA /* SoKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7A20E1BDB3CF600D499DA /* SoKCore.framework */; };
+		D7B7A26B1BDCAFD000D499DA /* SoKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7A20E1BDB3CF600D499DA /* SoKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,13 @@
 			remoteGlobalIDString = D7B7A23D1BDCAF6A00D499DA;
 			remoteInfo = "SoK-OSX";
 		};
+		D7B7A26C1BDCAFD000D499DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FCF539F1BC9A6A10025FC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B7A20D1BDB3CF600D499DA;
+			remoteInfo = SoKCore;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -136,6 +145,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				D7B7A2311BDB3D0C00D499DA /* SoKCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7A26E1BDCAFD100D499DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D7B7A26B1BDCAFD000D499DA /* SoKCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +282,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B7A26A1BDCAFD000D499DA /* SoKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,10 +661,12 @@
 				D7B7A23A1BDCAF6A00D499DA /* Sources */,
 				D7B7A23B1BDCAF6A00D499DA /* Frameworks */,
 				D7B7A23C1BDCAF6A00D499DA /* Resources */,
+				D7B7A26E1BDCAFD100D499DA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D7B7A26D1BDCAFD000D499DA /* PBXTargetDependency */,
 			);
 			name = "SoK-OSX";
 			productName = "SoK-OSX";
@@ -1006,6 +1029,11 @@
 			target = D7B7A23D1BDCAF6A00D499DA /* SoK-OSX */;
 			targetProxy = D7B7A25A1BDCAF6B00D499DA /* PBXContainerItemProxy */;
 		};
+		D7B7A26D1BDCAFD000D499DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B7A20D1BDB3CF600D499DA /* SoKCore */;
+			targetProxy = D7B7A26C1BDCAFD000D499DA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1296,6 +1324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1310,7 +1339,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos macosx";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1322,6 +1351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1336,7 +1366,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos macosx";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1377,6 +1407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "SoK-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -1392,6 +1423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "SoK-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;

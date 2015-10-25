@@ -5,8 +5,13 @@
 //  Created by teriiehina on 23/10/2015.
 //  Copyright © 2015 Jeffrey Macko. All rights reserved.
 //
+//#ifdef 1
+//#import <UIKit/UIKit.h>
+//#elif
+//#import <UIKit/UIKit.h>
+//#endif
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for SoKCore.
 FOUNDATION_EXPORT double SoKCoreVersionNumber;
