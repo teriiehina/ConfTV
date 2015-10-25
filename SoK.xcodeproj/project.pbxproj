@@ -36,6 +36,12 @@
 		D7B7A22F1BDB3D0200D499DA /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A22D1BDB3D0200D499DA /* ViewModels.swift */; };
 		D7B7A2301BDB3D0C00D499DA /* SoKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7A20E1BDB3CF600D499DA /* SoKCore.framework */; };
 		D7B7A2311BDB3D0C00D499DA /* SoKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7A20E1BDB3CF600D499DA /* SoKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D7B7A2411BDCAF6A00D499DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A2401BDCAF6A00D499DA /* AppDelegate.swift */; };
+		D7B7A2431BDCAF6A00D499DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A2421BDCAF6A00D499DA /* ViewController.swift */; };
+		D7B7A2451BDCAF6A00D499DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B7A2441BDCAF6A00D499DA /* Assets.xcassets */; };
+		D7B7A2481BDCAF6A00D499DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B7A2461BDCAF6A00D499DA /* Main.storyboard */; };
+		D7B7A2531BDCAF6B00D499DA /* SoK_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A2521BDCAF6B00D499DA /* SoK_OSXTests.swift */; };
+		D7B7A25E1BDCAF6B00D499DA /* SoK_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A25D1BDCAF6B00D499DA /* SoK_OSXUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +100,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0FCF53A61BC9A6A10025FC3E;
 			remoteInfo = "SoK-tvOS";
+		};
+		D7B7A24F1BDCAF6B00D499DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FCF539F1BC9A6A10025FC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B7A23D1BDCAF6A00D499DA;
+			remoteInfo = "SoK-OSX";
+		};
+		D7B7A25A1BDCAF6B00D499DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FCF539F1BC9A6A10025FC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B7A23D1BDCAF6A00D499DA;
+			remoteInfo = "SoK-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -164,6 +184,18 @@
 		D7B7A2201BDB3CF700D499DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B7A22C1BDB3D0200D499DA /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		D7B7A22D1BDB3D0200D499DA /* ViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		D7B7A23E1BDCAF6A00D499DA /* SoK-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoK-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B7A2401BDCAF6A00D499DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7B7A2421BDCAF6A00D499DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7B7A2441BDCAF6A00D499DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7B7A2471BDCAF6A00D499DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7B7A2491BDCAF6A00D499DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B7A24E1BDCAF6B00D499DA /* SoK-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoK-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B7A2521BDCAF6B00D499DA /* SoK_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoK_OSXTests.swift; sourceTree = "<group>"; };
+		D7B7A2541BDCAF6B00D499DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B7A2591BDCAF6B00D499DA /* SoK-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoK-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B7A25D1BDCAF6B00D499DA /* SoK_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoK_OSXUITests.swift; sourceTree = "<group>"; };
+		D7B7A25F1BDCAF6B00D499DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +258,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7B7A23B1BDCAF6A00D499DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7A24B1BDCAF6B00D499DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7A2561BDCAF6B00D499DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -243,6 +296,10 @@
 				D7B7A20F1BDB3CF600D499DA /* SoKCore */,
 				D7B7A21D1BDB3CF600D499DA /* SoKCoreTests */,
 				D7B7A2371BDB438900D499DA /* ------------------------- */,
+				D7B7A23F1BDCAF6A00D499DA /* SoK-OSX */,
+				D7B7A2511BDCAF6B00D499DA /* SoK-OSXTests */,
+				D7B7A25C1BDCAF6B00D499DA /* SoK-OSXUITests */,
+				D7B7A2691BDCAF7A00D499DA /* ------------------------- */,
 				0FCF53A81BC9A6A10025FC3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -258,6 +315,9 @@
 				D7B7A1971BDB336400D499DA /* SoK-iOS UITests.xctest */,
 				D7B7A20E1BDB3CF600D499DA /* SoKCore.framework */,
 				D7B7A2171BDB3CF600D499DA /* SoKCoreTests.xctest */,
+				D7B7A23E1BDCAF6A00D499DA /* SoK-OSX.app */,
+				D7B7A24E1BDCAF6B00D499DA /* SoK-OSXTests.xctest */,
+				D7B7A2591BDCAF6B00D499DA /* SoK-OSXUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -369,6 +429,43 @@
 			sourceTree = "<group>";
 		};
 		D7B7A2371BDB438900D499DA /* ------------------------- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "-------------------------";
+			sourceTree = "<group>";
+		};
+		D7B7A23F1BDCAF6A00D499DA /* SoK-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				D7B7A2401BDCAF6A00D499DA /* AppDelegate.swift */,
+				D7B7A2421BDCAF6A00D499DA /* ViewController.swift */,
+				D7B7A2441BDCAF6A00D499DA /* Assets.xcassets */,
+				D7B7A2461BDCAF6A00D499DA /* Main.storyboard */,
+				D7B7A2491BDCAF6A00D499DA /* Info.plist */,
+			);
+			path = "SoK-OSX";
+			sourceTree = "<group>";
+		};
+		D7B7A2511BDCAF6B00D499DA /* SoK-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7B7A2521BDCAF6B00D499DA /* SoK_OSXTests.swift */,
+				D7B7A2541BDCAF6B00D499DA /* Info.plist */,
+			);
+			path = "SoK-OSXTests";
+			sourceTree = "<group>";
+		};
+		D7B7A25C1BDCAF6B00D499DA /* SoK-OSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7B7A25D1BDCAF6B00D499DA /* SoK_OSXUITests.swift */,
+				D7B7A25F1BDCAF6B00D499DA /* Info.plist */,
+			);
+			path = "SoK-OSXUITests";
+			sourceTree = "<group>";
+		};
+		D7B7A2691BDCAF7A00D499DA /* ------------------------- */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -536,6 +633,59 @@
 			productReference = D7B7A2171BDB3CF600D499DA /* SoKCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D7B7A23D1BDCAF6A00D499DA /* SoK-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B7A2661BDCAF6B00D499DA /* Build configuration list for PBXNativeTarget "SoK-OSX" */;
+			buildPhases = (
+				D7B7A23A1BDCAF6A00D499DA /* Sources */,
+				D7B7A23B1BDCAF6A00D499DA /* Frameworks */,
+				D7B7A23C1BDCAF6A00D499DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoK-OSX";
+			productName = "SoK-OSX";
+			productReference = D7B7A23E1BDCAF6A00D499DA /* SoK-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7B7A24D1BDCAF6B00D499DA /* SoK-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B7A2671BDCAF6B00D499DA /* Build configuration list for PBXNativeTarget "SoK-OSXTests" */;
+			buildPhases = (
+				D7B7A24A1BDCAF6B00D499DA /* Sources */,
+				D7B7A24B1BDCAF6B00D499DA /* Frameworks */,
+				D7B7A24C1BDCAF6B00D499DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B7A2501BDCAF6B00D499DA /* PBXTargetDependency */,
+			);
+			name = "SoK-OSXTests";
+			productName = "SoK-OSXTests";
+			productReference = D7B7A24E1BDCAF6B00D499DA /* SoK-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7B7A2581BDCAF6B00D499DA /* SoK-OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B7A2681BDCAF6B00D499DA /* Build configuration list for PBXNativeTarget "SoK-OSXUITests" */;
+			buildPhases = (
+				D7B7A2551BDCAF6B00D499DA /* Sources */,
+				D7B7A2561BDCAF6B00D499DA /* Frameworks */,
+				D7B7A2571BDCAF6B00D499DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7B7A25B1BDCAF6B00D499DA /* PBXTargetDependency */,
+			);
+			name = "SoK-OSXUITests";
+			productName = "SoK-OSXUITests";
+			productReference = D7B7A2591BDCAF6B00D499DA /* SoK-OSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -575,6 +725,17 @@
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = D7B7A1761BDB336400D499DA;
 					};
+					D7B7A23D1BDCAF6A00D499DA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D7B7A24D1BDCAF6B00D499DA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D7B7A23D1BDCAF6A00D499DA;
+					};
+					D7B7A2581BDCAF6B00D499DA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D7B7A23D1BDCAF6A00D499DA;
+					};
 				};
 			};
 			buildConfigurationList = 0FCF53A21BC9A6A10025FC3E /* Build configuration list for PBXProject "SoK" */;
@@ -598,6 +759,9 @@
 				D7B7A1961BDB336400D499DA /* SoK-iOS UITests */,
 				D7B7A20D1BDB3CF600D499DA /* SoKCore */,
 				D7B7A2161BDB3CF600D499DA /* SoKCoreTests */,
+				D7B7A23D1BDCAF6A00D499DA /* SoK-OSX */,
+				D7B7A24D1BDCAF6B00D499DA /* SoK-OSXTests */,
+				D7B7A2581BDCAF6B00D499DA /* SoK-OSXUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -659,6 +823,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D7B7A2151BDB3CF600D499DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7A23C1BDCAF6A00D499DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B7A2451BDCAF6A00D499DA /* Assets.xcassets in Resources */,
+				D7B7A2481BDCAF6A00D499DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7A24C1BDCAF6B00D499DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7A2571BDCAF6B00D499DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -741,6 +928,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7B7A23A1BDCAF6A00D499DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B7A2431BDCAF6A00D499DA /* ViewController.swift in Sources */,
+				D7B7A2411BDCAF6A00D499DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7A24A1BDCAF6B00D499DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B7A2531BDCAF6B00D499DA /* SoK_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7A2551BDCAF6B00D499DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B7A25E1BDCAF6B00D499DA /* SoK_OSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -784,6 +996,16 @@
 			target = 0FCF53A61BC9A6A10025FC3E /* SoK-tvOS */;
 			targetProxy = D7B7A2381BDB459E00D499DA /* PBXContainerItemProxy */;
 		};
+		D7B7A2501BDCAF6B00D499DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B7A23D1BDCAF6A00D499DA /* SoK-OSX */;
+			targetProxy = D7B7A24F1BDCAF6B00D499DA /* PBXContainerItemProxy */;
+		};
+		D7B7A25B1BDCAF6B00D499DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B7A23D1BDCAF6A00D499DA /* SoK-OSX */;
+			targetProxy = D7B7A25A1BDCAF6B00D499DA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -810,6 +1032,14 @@
 				D7B7A1851BDB336400D499DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D7B7A2461BDCAF6A00D499DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B7A2471BDCAF6A00D499DA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1141,6 +1371,100 @@
 			};
 			name = Release;
 		};
+		D7B7A2601BDCAF6B00D499DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SoK-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "pf.teriiehina.SoK-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7B7A2611BDCAF6B00D499DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SoK-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "pf.teriiehina.SoK-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7B7A2621BDCAF6B00D499DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SoK-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "pf.teriiehina.SoK-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoK-OSX.app/Contents/MacOS/SoK-OSX";
+			};
+			name = Debug;
+		};
+		D7B7A2631BDCAF6B00D499DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SoK-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "pf.teriiehina.SoK-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoK-OSX.app/Contents/MacOS/SoK-OSX";
+			};
+			name = Release;
+		};
+		D7B7A2641BDCAF6B00D499DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SoK-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "pf.teriiehina.SoK-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "SoK-OSX";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D7B7A2651BDCAF6B00D499DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SoK-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "pf.teriiehina.SoK-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "SoK-OSX";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1214,12 +1538,38 @@
 				D7B7A2261BDB3CF700D499DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7B7A22B1BDB3CF700D499DA /* Build configuration list for PBXNativeTarget "SoKCoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7B7A2271BDB3CF700D499DA /* Debug */,
 				D7B7A2281BDB3CF700D499DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B7A2661BDCAF6B00D499DA /* Build configuration list for PBXNativeTarget "SoK-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B7A2601BDCAF6B00D499DA /* Debug */,
+				D7B7A2611BDCAF6B00D499DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7B7A2671BDCAF6B00D499DA /* Build configuration list for PBXNativeTarget "SoK-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B7A2621BDCAF6B00D499DA /* Debug */,
+				D7B7A2631BDCAF6B00D499DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7B7A2681BDCAF6B00D499DA /* Build configuration list for PBXNativeTarget "SoK-OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B7A2641BDCAF6B00D499DA /* Debug */,
+				D7B7A2651BDCAF6B00D499DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

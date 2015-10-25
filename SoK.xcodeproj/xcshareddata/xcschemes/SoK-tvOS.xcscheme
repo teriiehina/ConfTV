@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0FCF53A61BC9A6A10025FC3E"
-               BuildableName = "SoK.app"
+               BuildableName = "SoK-tvOS.app"
                BlueprintName = "SoK-tvOS"
                ReferencedContainer = "container:SoK.xcodeproj">
             </BuildableReference>
@@ -54,7 +54,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FCF53A61BC9A6A10025FC3E"
-            BuildableName = "SoK.app"
+            BuildableName = "SoK-tvOS.app"
             BlueprintName = "SoK-tvOS"
             ReferencedContainer = "container:SoK.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FCF53A61BC9A6A10025FC3E"
-            BuildableName = "SoK.app"
+            BuildableName = "SoK-tvOS.app"
             BlueprintName = "SoK-tvOS"
             ReferencedContainer = "container:SoK.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FCF53A61BC9A6A10025FC3E"
-            BuildableName = "SoK.app"
+            BuildableName = "SoK-tvOS.app"
             BlueprintName = "SoK-tvOS"
             ReferencedContainer = "container:SoK.xcodeproj">
          </BuildableReference>
